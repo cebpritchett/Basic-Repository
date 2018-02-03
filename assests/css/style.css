@@ -1,3 +1,4 @@
+*
 .masthead {
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -35,9 +36,15 @@
     margin-right: 25px;
 }
 
+.links:hover {
+   
+    color: #BC629B;
+}
+
 body {
    font-family: Arial, Helvetica, sans-serif;
-   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/stardust.png")
+   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/stardust.png");
+   box-sizing: border-box;
 }
 
 .container {
@@ -115,6 +122,7 @@ p {
     text-decoration: none;
 }
 
+
 footer {
     height: 40px;
     position: fixed;
@@ -132,5 +140,57 @@ footer {
     color: white;
 }
 
+.contact-form {
+    color: lightslategray;
+    margin-left: 20px;
+}
 
+.inputs {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 96%;
+    border: solid 1px lightgray;
+    height: 25px;
+}
+
+#textarea {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    width: 96%;
+    border: solid 1px lightslategray;
+    height: 300px;
+    border: solid 1px lightgray;
+}
+
+.button {
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 25px 10px 25px;
+    font-size: 25px;
+    margin-top: 5px;
+    border-color: #4aaaa5;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #BC629B;
+    border-color: #BC629B;
+   }
+
+#portcontainer {
+    width: 650px;
+    height: 900px;
+}
+
+ .portpics {
+       height: 200px;
+       width: 275px;
+       margin: 20px 20px 0px 20px;
+       float: left;
+       overflow: auto;
+   }
+
+  
 
